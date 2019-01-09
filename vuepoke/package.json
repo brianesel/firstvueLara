@@ -1,0 +1,22 @@
+{
+  "name": "vue-pokemon",
+  "version": "1.0.0",
+  "description": "All pokemon using Vue.js",
+  "author": "Dang Van Thanh <dangvanthanh@dangthanh.org>",
+  "repository": {
+    "type": "git",
+    "url": "vue-pokemon"
+  },
+  "keywords": [
+    "pokemon",
+    "vue.js"
+  ],
+  "scripts": {
+    "dev": "poi src/index.js",
+    "public": "poi build src/index.js --out-dir public"
+  },
+  "devDependencies": {
+    "poi": "^10.1.9"
+  },
+  "license": "MIT"
+}
